@@ -15,6 +15,9 @@ using ASP.NET Core and EntityFramework Core.
 
 ## How To Run
 
-* Open solution in Visual Studio 2017
-* Set .Web project as Startup Project and build the project.
+* Open solution in Visual Studio 2017 and above
+* Set PCAssessAPI project as Startup Project and build the project.
 * Run the application.
+
+## Database Connection 
+*     "Default": "Server=localhost; Database=pconsultingassesmentdb; Port=5432; User Id=postgres;password=*****;"
