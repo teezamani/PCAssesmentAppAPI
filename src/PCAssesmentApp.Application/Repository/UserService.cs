@@ -65,7 +65,7 @@ namespace PCAssesmentApp.Repository
                         };
                         getUserDtos.Add(AllUser);
                     }
-                    return new BaseResponses(true, "Fixed type list", getUserDtos);
+                    return new BaseResponses(true, "Users", getUserDtos);
                 }
                 return new BaseResponses(false, "No User");
             }

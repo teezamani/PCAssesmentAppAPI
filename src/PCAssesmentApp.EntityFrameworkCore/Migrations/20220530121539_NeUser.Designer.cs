@@ -11,8 +11,8 @@ using PCAssesmentApp.EntityFrameworkCore;
 namespace PCAssesmentApp.Migrations
 {
     [DbContext(typeof(PCAssesmentAppDbContext))]
-    [Migration("20220530112431_AddUser")]
-    partial class AddUser
+    [Migration("20220530121539_NeUser")]
+    partial class NeUser
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
